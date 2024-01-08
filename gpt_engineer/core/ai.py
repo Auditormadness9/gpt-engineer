@@ -32,7 +32,7 @@ logger = logging.getLogger(__name__)
 class AI:
     def __init__(
         self,
-        model_name="gpt-4-1106-preview",
+        model_name="gpt-3-turbo-16k",
         temperature=0.1,
         azure_endpoint="",
         streaming=True,
